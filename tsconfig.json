@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": ["es2015"], 
+    "types": ["node", "chai"],
+    "allowJs": true,
+    "sourceMap": true,
+    "outDir": "./built",
+    "strict": false,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipDefaultLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+  },
+  "include": [
+    "./src/tests/**/*",
+    "./src/**/*",
+    "*.ts"
+],
+  "exclude": [
+    "./node_modules",
+    "./esnext"
+  ],
+  "compileOnSave": false
+}

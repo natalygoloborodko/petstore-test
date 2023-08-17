@@ -1,0 +1,23 @@
+{
+  "name": "api-tests-petstore",
+  "version": "1.0.0",
+  "description": "draft-test-project",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "lint-fix": "eslint . --fix --ext .ts",
+    "test": "cucumber-js",
+    "test:smoke": "cucumber-js --tags @smoke"
+  },
+  "author": "n.goloborodko",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chai": "^4.3.5",
+    "@cucumber/cucumber": "^7.3.2",
+    "@types/node": "^16.11.18",
+    "axios": "0.21.4",
+    "chai": "4.3.7",
+    "ts-node": "^10.9.1",
+    "typescript": "4.3.5"
+  }
+}
